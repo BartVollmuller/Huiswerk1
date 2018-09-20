@@ -1,0 +1,6 @@
+waarde = (0 == 1 == 2)
+waarde1 = (2 + 3 == 4 + 5 == 7)
+waarde2 = (1 < -1 == 3 > 4)
+print(not(waarde))
+print(not(waarde1))
+print(not(waarde2))
