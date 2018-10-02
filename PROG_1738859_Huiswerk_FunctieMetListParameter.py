@@ -1,6 +1,6 @@
-def som(Getallenlijst):
-   optelling =  Getallenlijst[0] + Getallenlijst[1] + Getallenlijst[2] + Getallenlijst[3]
-   return optelling
+def som(getallenLijst):
+   opgeteld =  getallenLijst[0] + getallenLijst[1] + getallenLijst[2] + getallenLijst[3]
+   return opgeteld
 
 
 list = [1,11,9,4]

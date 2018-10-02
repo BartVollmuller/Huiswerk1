@@ -1,3 +1,12 @@
-def swapFS(lst):
-    if len(lst) >1:
-        lst[0], lst[1] = lst[1] , lst[0]
+def acronym(phrase):
+    words = phrase.split()
+
+
+
+    res = ' '
+    for w in words:
+        res = res + w[0].upper()
+    return res
+   
+
+print (acronym("Ik zit in Utrechjt"))
